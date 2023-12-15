@@ -1,0 +1,25 @@
+{
+    "Дядя Ваня": {
+      "phones": [
+        9111111111,
+        333333
+      ],
+      "birthday": "01.01.1972",
+      "email": "uncle_vanya@mail.ru"
+    },
+    "Дядя Вася": {
+      "phones": [
+        9211111111
+      ],
+      "birthday": "12.12.1967",
+      "email": "uncle_vasya@list.ru"
+    },
+    "Дед Максим": {
+      "phones": [
+        "435635",
+        "2345"
+      ],
+      "birthday": "11.11.1941",
+      "email": "dead_maksim@f.com"
+    }
+  }
