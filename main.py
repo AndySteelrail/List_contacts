@@ -8,7 +8,6 @@ def load():
             contacts = json.load(doc)
             return contacts
     except:
-        print("Контактов пока нет\n")
         return {}
 
 def save(contacts):
@@ -17,6 +16,7 @@ def save(contacts):
 
 def print_contacts(contacts):
     if contacts == {}:
+        print("Контактов пока нет\n")
         return 
     for name, info in contacts.items():
         print(f"Контакт: {name}")
